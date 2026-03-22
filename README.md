@@ -1,14 +1,10 @@
 # Attack Detection System using Machine Learning
 
 ## Project Overview
-This project is a Machine Learning-based Intrusion Detection System (IDS) that detects whether network traffic is Normal or an Attack. The system uses the Random Forest algorithm to classify network traffic. The model is trained using the KDD Cup 99 dataset, which is a well-known dataset used for intrusion detection.
+This project is a Machine Learning-based Intrusion Detection System (IDS) that detects whether network traffic is Normal or an Attack. The model is trained using the KDD Cup 99 dataset and uses the Random Forest algorithm for attack detection.
 
 ## Objective
-The objective of this project is to:
-- Detect network intrusions using Machine Learning
-- Classify network traffic as Normal or Attack
-- Evaluate model performance
-- Visualize the results using graphs
+The objective of this project is to build a system that can detect network intrusions using Machine Learning and classify network traffic as Normal or Malicious.
 
 ## Technologies Used
 - Python
@@ -21,39 +17,56 @@ The objective of this project is to:
 ## Project Structure
 Attack-Detection-ML
 │
-├── dataset          -> Training and testing dataset
-├── src              -> Source code (preprocessing, training, prediction)
-├── model            -> Saved trained model
-├── outputs          -> Output graphs and results
-├── main.py          -> Main program file
-├── requirements.txt -> Required Python libraries
-└── README.md        -> Project documentation
+├── dataset        -> Contains training and testing dataset
+├── src            -> Source code files
+├── model          -> Saved trained model
+├── outputs        -> Output graphs
+├── main.py        -> Main program
+├── requirements.txt
+└── README.md
 
-## Machine Learning Model
-This project uses the Random Forest algorithm, which is an ensemble learning method that uses multiple decision trees to improve prediction accuracy.
+## Project Workflow
+1. Load KDD Dataset
+2. Data Preprocessing
+3. Feature Encoding
+4. Train Test Split
+5. Model Training (Random Forest)
+6. Model Evaluation
+7. Attack Prediction
+8. Visualization (Confusion Matrix, Feature Importance)
 
-## Output Results
-The project generates the following outputs:
-- Confusion Matrix
-- Feature Importance Graph
-- Class Distribution Graph
+## Model Performance
+- Algorithm Used: Random Forest
+- Accuracy: 99.82%
+- F1 Score: 0.9980
+- Cross Validation Score: 0.9978
+
+## Output Screenshots
+
+### Confusion Matrix
+![Confusion Matrix](outputs/confusion.png)
+
+### Feature Importance
+![Feature Importance](outputs/feature.png)
+
+### Class Distribution
+![Class Distribution](outputs/graph.png)
+
+## Sample Prediction Output
+The model predicts whether the network traffic is normal or an attack and also identifies the type of attack such as DoS, Probe, R2L, and U2R.
 
 ## How to Run the Project
 1. Install Python
 2. Install required libraries:
    pip install -r requirements.txt
-3. Train the model:
-   python src/train_model.py
-4. Run prediction:
-   python src/predict.py
-5. Run main file:
+3. Run the project:
    python main.py
 
 ## Dataset
 KDD Cup 99 Intrusion Detection Dataset
 
 ## Conclusion
-This project demonstrates how Machine Learning can be used in Cyber Security to detect network attacks.
+This project shows how Machine Learning can be used in Cyber Security to detect network attacks and improve security monitoring systems.
 
 ## Author
 Dnyaneshwar Padol

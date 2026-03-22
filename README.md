@@ -44,13 +44,13 @@ Attack-Detection-ML
 ## Output Screenshots
 
 ### Confusion Matrix
-![Confusion Matrix](outputs/confusion.png)
+![Confusion Matrix](outputs/confusion_matrix.png)
 
 ### Feature Importance
-![Feature Importance](outputs/feature.png)
+![Feature Importance](outputs/feature_importance.png)
 
 ### Class Distribution
-![Class Distribution](outputs/graph.png)
+![Class Distribution](outputs/class_distribution.png)
 
 ## Sample Prediction Output
 The model predicts whether the network traffic is normal or an attack and also identifies the type of attack such as DoS, Probe, R2L, and U2R.
@@ -63,7 +63,7 @@ The model predicts whether the network traffic is normal or an attack and also i
    python main.py
 
 ## Dataset
-KDD Cup 99 Intrusion Detection Dataset
+KDD Intrusion Detection Dataset
 
 ## Conclusion
 This project shows how Machine Learning can be used in Cyber Security to detect network attacks and improve security monitoring systems.

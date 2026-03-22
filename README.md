@@ -42,10 +42,13 @@ Attack-Detection-ML
 8. Visualization (Confusion Matrix, Feature Importance)
 
 ## Model Performance
-- Algorithm Used: Random Forest
-- Accuracy: 99.82%
-- F1 Score: 0.9980
-- Cross Validation Score: 0.9978
+
+| Metric | Score |
+|-------|-------|
+| Accuracy | 99.82% |
+| Precision | 99.80% |
+| Recall | 99.78% |
+| F1-Score | 99.79% |
 
 ## Output Screenshots
 

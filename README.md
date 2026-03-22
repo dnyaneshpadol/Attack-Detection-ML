@@ -52,7 +52,23 @@ Attack-Detection-ML
 ### Class Distribution
 ![Class Distribution](outputs/class_distribution.png)
 
-## Sample Prediction Output
+## Project Execution Screenshots
+
+* Dataset Information
+![Dataset Info](screenshots/dataset_info.png)
+
+* Data Preprocessing and Class Distribution
+![Preprocessing](screenshots/preprocessing_and_classdistrubution.png)
+
+* Model Training
+![Model Training](screenshots/model_training.png)
+
+* Model Performance
+![Model Performance](screenshots/model_performance.png)
+
+* Sample Prediction
+![Sample Prediction](screenshots/sample_prediction.png)
+
 The model predicts whether the network traffic is normal or an attack and also identifies the type of attack such as DoS, Probe, R2L, and U2R.
 
 ## How to Run the Project

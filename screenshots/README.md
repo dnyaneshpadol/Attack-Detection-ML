@@ -1,1 +1,1 @@
-This folder contains project execution screenshots.
+Added project execution screenshots

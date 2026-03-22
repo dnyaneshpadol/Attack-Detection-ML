@@ -16,13 +16,19 @@ The objective of this project is to build a system that can detect network intru
 
 ## Project Structure
 Attack-Detection-ML
-│
+
 ├── dataset        -> Contains training and testing dataset
+
 ├── src            -> Source code files
+
 ├── model          -> Saved trained model
+
 ├── outputs        -> Output graphs
+
 ├── main.py        -> Main program
+
 ├── requirements.txt
+
 └── README.md
 
 ## Project Workflow
